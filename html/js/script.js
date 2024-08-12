@@ -3,6 +3,15 @@
 
 jQuery(document).ready(function(){
 	
+/*Mobile Menu Start*/
+jQuery(".hamburger-icon").click(function() {
+	'use strict';
+	jQuery(this).toggleClass('active');
+	jQuery('.navigation_main').toggleClass('show');
+	jQuery('body').toggleClass('open_menu');
+});
+/*Mobile Menu End*/
+
 });
 
 function bluesticky()

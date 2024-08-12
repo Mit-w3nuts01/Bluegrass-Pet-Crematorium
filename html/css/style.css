@@ -172,6 +172,7 @@ h6 {
 	font-size: 20px; line-height: 1.2; color: #848484; text-transform: uppercase; font-family: 'AttenNew-Bold'; padding: 0 0 20px 0;
 }
 p {margin: 0; padding: 0; color: #000000; font-weight: 400;font-size: 20px; font-family: 'AttenNew-Regular'; line-height: 1.45;}
+p strong { font-weight: normal; font-family: 'AttenNew-Bold'; }
 p a { color: #163760; }
 p a:hover { color: #000; }
 p + p{ padding-top: 29px; }
@@ -341,6 +342,52 @@ footer .footer_inner .footer_row { width: 100%; display: -ms-flexbox; display: f
 .footer_map { width: 434px; position: relative; }
 .footer_map::after { content: ''; display: block; padding: 35.945% 50%; }
 .footer_map iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-.copyright_footer { width: 100%; position: relative; padding: 67px 0 0 15px; }
-.copyright_footer p { font-size: 16px !important; }
+.copyright_footer { width: 100%; position: relative; padding: 67px 0 0 15px; color: #fff; }
+.copyright_footer p { font-size: 16px !important; color: #fff; }
 /* Footer End */
+
+/* =============================================================================================================== */
+/* About Page Start */
+/* =============================================================================================================== */
+.inner_banner { width: 100%; position: relative; }
+.inner_banner_main_wrap { width: 100%; position: relative; background-color: #FED8AB; }
+.inner_banner_row { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
+.inner_banner_row .inner_banner_img_blk { width: 50%; }
+.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: 100%; position: relative; width: calc((100vw - 1588px) / 2 + 15px + 100%); position: relative; float: right; height: 100%; }
+/* .inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: 864px; min-width: 864px; position: relative; position: relative; float: right; height: 100%; } */
+.inner_banner_img_blk_main::after { content: ''; padding: 27.37415% 50%; display: block; }
+.inner_banner_img_blk_main img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; }
+.inner_banner_txt { width: 50%; align-self: center; padding: 40px 0 40px 143px; }
+.inner_banner_txt h1 { font-family: 'Alana'; font-size: 64px; padding: 0 0 14px 0; }
+.inner_banner_txt h6 { padding-bottom: 27px; }
+
+/* Our Mission Section Start */
+.our_mission_sec { width: 100%; position: relative; padding: 46px 0; }
+.our_mission_inner { width: 100%; position: relative; }
+.our_mission_row { display: -ms-flexbox; display: flex; align-items: center; align-content: center; justify-content: space-between; margin: 0 -15px; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.our_mission_row .our_mission_img_blk { width: 641px; padding: 0 15px; }
+.our_mission_row .our_mission_dtl { width: 652px; padding: 30px 15px; }
+.our_mission_row .our_mission_dtl h2 { padding: 0 0 21px 0; }
+.our_mission_img { width: 100%; position: relative; }
+.our_mission_img::after { content: ''; display: block; padding: 41.818% 50%; }
+.our_mission_img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+/* Our Mission Section End */
+
+/* FAQ Section Start */
+.faq_sec { position: relative; width: 100%; padding: 0; background: linear-gradient(154.5deg, #FED8AB 30.46%, #EE705F 114.81%);}
+.faq_inner { width: 100%; position: relative; }
+.faq_row { display: -ms-flexbox; display: flex; justify-content: space-between; margin: 0 0;width: 100%; position: relative; }
+.faq_row .faq_img_blk { width: 730px;  }
+.faq_row .faq_img_wrap { width: 100%; position: relative; height: 100%; }
+.faq_row .faq_img_wrap:after { content: ''; display: block; padding: 40.275% 50%; }
+.faq_row .faq_img_wrap img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; }
+.faq_row .faq_dtl { width: calc(100% - 730px); padding: 30px 100px 96px; align-self: center; }
+.faq_row .faq_dtl h6 { padding: 0 0 28px 0; }
+.faq_row .faq_dtl h2 { font-size: 54px; padding: 0 0 31px 0; }
+.faq_row .faq_dtl .main_btn { padding: 75px 0 0 0; }
+.faq_row .faq_dtl .main_btn a { min-width: 140px; }
+.faq_row .faq_dtl p a { color: #000; }
+/* FAQ Section End */
+/* =============================================================================================================== */
+/* About Page End */
+/* =============================================================================================================== */

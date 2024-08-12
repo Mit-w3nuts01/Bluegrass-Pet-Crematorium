@@ -3,6 +3,9 @@
 }
 
 @media (min-width: 1201px) and (max-width: 1699px) {
+	/* =============================================================================================================== */
+	/* Index Page Start */
+	/* =============================================================================================================== */
 	h2 { font-size: 55px; }
 	h4 { font-size: 38px; }
 	/* Header Start */
@@ -66,9 +69,39 @@
 	.footer_contact p { font-size: 20px; }
 	.copyright_footer { padding: 37px 0 0 15px; }
 	/* Footer End */
+	/* =============================================================================================================== */
+	/* Index Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* About Page Start */
+	/* =============================================================================================================== */
+	/* About Banner Start */
+	.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: calc((100vw - 1130px) / 2 + 15px + 100%); }
+	.inner_banner_txt { padding: 40px 0 40px 45px; }
+	.inner_banner_txt h6 { padding-bottom: 20px; }
+	/* About Banner End */
+
+	/* Our Mission Section Start */
+	.our_mission_row .our_mission_dtl { width: 562px; }
+	.our_mission_row .our_mission_img_blk { width: 510px; }
+	/* Our Mission Section End */
+
+	/* FAQ Section Start */
+	.faq_row .faq_img_blk { width: 550px; }
+	.faq_row .faq_dtl { width: calc(100% - 550px); padding: 30px 0 30px 50px; }
+	.faq_row .faq_dtl .main_btn { padding: 30px 0 0 0; }
+	.faq_row .faq_dtl h2 { font-size: 47px; }
+	/* FAQ Section End */
+	/* =============================================================================================================== */
+	/* About Page End */
+	/* =============================================================================================================== */
 }
  
 @media (min-width: 992px) and (max-width: 1200px) {
+	/* =============================================================================================================== */
+	/* Index Page Start */
+	/* =============================================================================================================== */
 	h2 { font-size: 40px; }
 	h4 { font-size: 30px; }
 	h6 { font-size: 18px; }
@@ -137,8 +170,40 @@
 	.footer_contact p { font-size: 20px; }
 	.copyright_footer { padding: 37px 0 0 15px; }
 	/* Footer End */
+	/* =============================================================================================================== */
+	/* Index Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* About Page Start */
+	/* =============================================================================================================== */
+	/* About Banner Start */
+	.inner_banner_txt h1 { font-size: 45px; }
+	.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: calc((100vw - 970px) / 2 + 15px + 100%); }
+	.inner_banner_txt { padding: 40px 0 40px 45px; }
+	.inner_banner_txt h6 { padding-bottom: 20px; }
+	/* About Banner End */
+
+	/* Our Mission Section Start */
+	.our_mission_row .our_mission_dtl { width: 475px; }
+	.our_mission_row .our_mission_img_blk { width: 460px; }
+	/* Our Mission Section End */
+
+	/* FAQ Section Start */
+	.faq_row .faq_img_blk { width: 450px; }
+	.faq_row .faq_dtl { width: calc(100% - 450px); padding: 30px 0 30px 50px; }
+	.faq_row .faq_dtl .main_btn { padding: 30px 0 0 0; }
+	.faq_row .faq_dtl h2 { font-size: 40px; padding: 0 0 12px 0; }
+	/* FAQ Section End */
+	/* =============================================================================================================== */
+	/* About Page End */
+	/* =============================================================================================================== */
+	
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	/* =============================================================================================================== */
+	/* Index Page Start */
+	/* =============================================================================================================== */
 	h2 { font-size: 35px; }
 	h4 { font-size: 27px; }
 	h6 { font-size: 18px; padding-bottom: 10px; }
@@ -212,14 +277,210 @@
 	.f_social ul li a img { height: 40px; }
 	.footer_row .footer_right { width: calc(100% - 273px); padding: 24px 0 24px 20px; }
 	.footer_map { width: 304px; }
-	.footer_contact { width: 305px; }
+	.footer_contact { width: 100%; padding: 20px 0 30px 0;  }
 	.footer_contact p { font-size: 20px; }
 	.copyright_footer { padding: 37px 0 0 15px; }
 	/* Footer End */
+	/* =============================================================================================================== */
+	/* Index Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* About Page Start */
+	/* =============================================================================================================== */
+	/* About Banner Start */
+	.inner_banner_row .inner_banner_img_blk { width: 100%; }
+	.inner_banner_txt h1 { font-size: 45px; }
+	.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: 100vw; position: relative; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); float: none; }
+	.inner_banner_txt { padding: 40px 0 40px 0; width: 100%; }
+	.inner_banner_txt h6 { padding-bottom: 20px; }
+	/* About Banner End */
+
+	/* Our Mission Section Start */
+	.our_mission_row .our_mission_dtl { width: 50%; }
+	.our_mission_row .our_mission_img_blk { width: 50%; }
+	/* Our Mission Section End */
+
+	/* FAQ Section Start */
+	.faq_row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.faq_row .faq_img_blk { width: 100%; }
+	.faq_row .faq_dtl { width: 100%; padding: 30px 0 40px 0; }
+	.our_mission_sec { padding: 26px 0; }
+	.faq_row .faq_dtl .main_btn { padding: 30px 0 0 0; }
+	.faq_row .faq_dtl h2 { font-size: 40px; padding: 0 0 12px 0; }
+	/* FAQ Section End */
+	/* =============================================================================================================== */
+	/* About Page End */
+	/* =============================================================================================================== */
  
 }
+@media (max-width: 991px) {
+	.menubar {z-index: 99999; line-height: normal; height: auto; font-size: 0; margin-left: auto;}
+	.hamburger-icon{height: 21px; outline:none; padding:0; margin-top:0; background:none; font-size:0; line-height:normal; border:none; -webkit-box-shadow:none; -moz-box-shadow:none; -ms-box-shadow:none; box-shadow:none; -webkit-appearance:none; -moz-appearance:none; cursor:pointer;}
+	.hamburger-icon:hover, .hamburger-icon:focus { outline:none; }
+	.navbar-toggler-icon { position:relative; }
+	.navbar-toggler-icon { width:25px; height:3px;  background:#004F84; }
+	.navbar-toggler-icon:after {content:''; width:25px; height:3px; position:absolute; left:0; right:0; bottom:-8px; background:#004F84; }
+	.navbar-toggler-icon:before {content:''; width:25px; height:3px; position:absolute; left:0; right:0; top:-8px; background:#004F84; }
+	.navbar ul.navbar-nav li { padding:8px 0; }
+	/*.navbar-collapse { position: absolute;left: 0;right: 0;top: 100%;z-index: 123; background:#fafafa;  width:100vw; margin-left:-15px; }*/
+	.navigation_main.show { width:100vw; opacity:1; visibility:visible; overflow:auto; }
+	.navbar-toggler-icon:after ,
+	.navbar-toggler-icon:before { -webkit-transition-duration: .3s, .3s; transition-duration: .3s, .3s; -webkit-transition-delay: .3s, 0s; transition-delay: .3s, 0s;}
+	.navbar-toggler-icon:after {  -webkit-transition-property:bottom , transform; transition-property:bottom , transform; }
+	.navbar-toggler-icon:before {  -webkit-transition-property:top , transform; transition-property:top , transform;  }
+
+	.active span.navbar-toggler-icon  { background:none; }
+	.active .navbar-toggler-icon:after { bottom:0; transform:rotate(45deg); }
+	.active .navbar-toggler-icon:before { top:0; transform:rotate(-45deg);  }
+	.active .navbar-toggler-icon:after ,
+	.active .navbar-toggler-icon:before {-webkit-transition-delay: 0s, .3s; transition-delay:0s, .3s;}
+	.hamburger-icon { z-index:13; }
+	body.open_menu { overflow:hidden; }
+	.navigation_main { position:fixed; right:0; top:144px; background:#F2F7F9; z-index:12; width:0; height:calc(100vh - 144px); opacity:0; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out; visibility:hidden; overflow:hidden; padding:70px 15px; display: block; }
+	.navigation_main ul { display: block; margin: 0; }
+	.navigation_main ul li { margin: 0; padding: 0; display: -ms-flexbox; display: flex; }
+	.navigation_main ul li + li { padding-top: 15px; }
+	.navigation_main ul li a::before { display: none !important; }
+	.navigation_main ul li a:after, 
+	.navigation_main ul li a { align-items:flex-start; align-content: flex-start; text-align:left; }
+}
 @media (max-width: 767px) {
- 
+	/* =============================================================================================================== */
+	/* Index Page Start */
+	/* =============================================================================================================== */
+	h2 { font-size: 35px; }
+	h4 { font-size: 27px; }
+	h6 { font-size: 16px; padding-bottom: 10px; }
+	p { font-size: 18px; }
+	/* Header Start */
+	.header_link_box.header_link_btn a { min-width: 162px; }
+	.header_link_box + .header_link_box { padding-left: 30px; }
+	.header_link_box + .header_link_box.header_link_btn { padding-left: 33px; }
+	.logo a img { height: 46px; }
+	.navigation_main ul { margin: 0 -10px; }
+	.navigation_main ul li { padding: 0 10px; }
+	.navigation_main ul li a::before { top: calc(100% + 8px); height: 3px; }
+	.navigation_main .header_link_wrap { padding: 40px 0 0 0; }
+	.navigation_main .header_link_box a { color: #004F84; }
+	/* Header End */
+
+	/* Home Banner Start */
+	.banner_img_blk { position: relative; height: auto; }
+	.banner_main_wrap .banner_wrap { max-width: 687px;padding: 40px 0 70px 0; margin: 0 auto; text-align: center; }
+	.banner_wrap .main_btn { justify-content: center; }
+	.banner_wrap h1 { font-size: 35px; }
+	.banner_wrap h1 br { display: none; }
+	.banner_main_wrap { min-height: 1px; }
+	.center_icon img { width: 90px; }
+	.main_btn a { min-height: 40px; }
+	/* Home Banner End */
+
+	/* Home About Section Start */
+	.about_sec { padding: 70px 0 40px; }
+	.abt_inner .abt_img_wrap { max-width: 100%; }
+	.abt_detail { max-width: 100%; padding: 30px 0 0 0; }
+	.about_sec:after { width: 100%; }
+	.abt_detail .main_btn { padding: 22px 0 0 0; }
+	/* Home About Section End */
+
+	/* Our Work Section Start */
+	.our_work_sec { padding: 35px 0; }
+	.our_work_header .our_work_icon { width: 55px; }
+	.our_work_header .our_work_title { width: calc(100% - 55px); padding: 0 0 0 15px; }
+	.our_work_inner .row { margin: 0 -30px !important; }
+	.our_work_inner .row [class^="col-"] { padding: 20px 30px !important; }
+	.our_work_disc p { font-size: 18px; }
+	.our_work_box .our_work_box_bottom { padding: 20px 0 0 0; }
+	/* Our Work Section End */
+
+	/* Testimonial Home Section Start */
+	.home_testi_img {width: 100%; min-width: 100%;}
+	.home_testi_inner { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.home_testi_review { width: 100%; margin: -15px 0 0 0; padding: 0 15px; }
+	.testimonial_content { padding: 15px; }
+	.testimonial_content_inner { padding: 15px; }
+	.testimonial_content .name_reviewer { font-size: 19px; padding: 0 70px 0 0; }
+	.testimonial_content .name_reviewer:after { width: 65px; height: 53px; right: 0; bottom: -10px; }
+	.link_more { padding: 15px 15px 0 0; }
+	.home_testi_sec { padding-top: 0; padding-bottom: 20px; }
+	.link_more a { font-size: 19px; }
+	.testimonial_content p { font-size: 20px; }
+	.testimonial_content .testimonial_name_review { padding: 20px 0 0 0; }
+	/* Testimonial Home Section End */
+
+	/* Keepsakes Section Start */
+	.keepsakes_sec { padding-bottom: 40px; }
+	.keepsakes_img_wrap { width: 100%; }
+	.keepsakes_img { width: 100%; }
+	.keepsakes_dtl { padding: 25px 0 0 0; }
+	.keepsakes_dtl h2 { padding-bottom: 15px; }
+	.keepsakes_dtl p { font-size: 18px; }
+	.keepsakes_dtl .main_btn { padding: 22px 0 0 0; }
+	/* Keepsakes Section End */
+
+	/* Cremation Services Section Start */
+	.cremation_services_row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.cremation_services_dtl_col { width: 390px; }
+	.cremation_services_dtl_col:after { width: 100vw; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+	.cremation_services_dtl_col .cremation_services_dtl { padding: 30px 0 40px; }
+	.cremation_services_dtl .main_btn { padding: 22px 0 0 0; }
+	.cremation_services_dtl h2 { padding: 0 0 15px 0; }
+	.cremation_services_img_col { width: 100%; }
+	.cremation_services_img_col .cremation_services_img { width: 100vw; position: relative; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); float: none; }
+	/* Cremation Services Section End */
+
+	/* Footer Start */
+	footer { padding: 40px 0 0 0; }
+	.f_logo { justify-content: center; }
+	.f_logo a { width: 200px; }
+	.footer_row .footer_left { width: 100%; padding: 0 0 30px 0; }
+	.f_social { padding: 20px 0 0 0; }
+	.f_social ul { margin: 0 -10px; }
+	.f_social ul li { padding: 0 10px; }
+	.f_social ul li a img { height: 40px; }
+	.footer_row .footer_right { width: 100%; padding: 20px 0 30px 0; }
+	.footer_row .footer_right:after { left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+	.footer_map { width: 304px; }
+	.footer_contact { width: 100%; padding: 20px 0 30px 0;  }
+	.footer_contact p { font-size: 18px; }
+	.copyright_footer { padding: 37px 0 0 15px; }
+	/* Footer End */
+	/* =============================================================================================================== */
+	/* Index Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* About Page Start */
+	/* =============================================================================================================== */
+	/* About Banner Start */
+	.inner_banner_row .inner_banner_img_blk { width: 100%; }
+	.inner_banner_txt h1 { font-size: 40px; }
+	.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: 100vw; position: relative; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); float: none; }
+	.inner_banner_txt { padding: 30px 0 40px 0; width: 100%; }
+	.inner_banner_txt h6 { padding-bottom: 15px; }
+	/* About Banner End */
+
+	/* Our Mission Section Start */
+	.our_mission_row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.our_mission_row .our_mission_dtl { width: 100%; }
+	.our_mission_row .our_mission_dtl h2 { padding-bottom: 15px; }
+	.our_mission_row .our_mission_img_blk { width: 100%; }
+	.our_mission_sec { padding: 40px 0 10px; }
+	/* Our Mission Section End */
+
+	/* FAQ Section Start */
+	.faq_row { -ms-flex-wrap: wrap; flex-wrap: wrap; padding-top: 40px; }
+	.faq_row .faq_img_blk { width: 100%; }
+	.faq_row .faq_dtl { width: 100%; padding: 30px 0 40px 0; }
+	.faq_row .faq_dtl .main_btn { padding: 20px 0 0 0; }
+	.faq_row .faq_dtl h2 { font-size: 35px; padding: 0 0 12px 0; }
+	.faq_row .faq_dtl h6 { padding-bottom: 15px; }
+	/* FAQ Section End */
+	/* =============================================================================================================== */
+	/* About Page End */
+	/* =============================================================================================================== */
+
 }
 
 
