@@ -441,3 +441,50 @@ footer .footer_inner .footer_row { width: 100%; display: -ms-flexbox; display: f
 /* =============================================================================================================== */
 /* Service Page End */
 /* =============================================================================================================== */
+
+
+/* =============================================================================================================== */
+/* Testimonial Page Start */
+/* =============================================================================================================== */
+/* Testimonial Banner Section Start */
+.inner_banner_v2 .inner_banner_img_blk { width: 45.139%; }
+.inner_banner_v2 .inner_banner_txt { width: calc(100% - 45.139%); padding: 30px 50px; text-align: center; }
+.inner_banner_v2 .inner_banner_txt h1 { padding-bottom: 4px; }
+.inner_banner_v2 .inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: 100%; }
+.inner_banner_v2 .inner_banner_img_blk_main::after { padding: 30.257% 50%; }
+.testimonial_banner .inner_banner_row { -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+/* Testimonial Banner Section End */
+
+/* Testimonial List Section Start */
+.testimonial_list_sec { width: 100%; position: relative; padding: 48px 0 75px; }
+.testimonial_list_inner { width: 100%; position: relative; }
+
+.testimonial_list_box { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; align-items: center; align-content: center; }
+.testimonial_list_box .testimonial_list_img { width: 452px; }
+.testimonial_list_img .testimonial_list_main { width: 100%; position: relative; overflow: hidden; }
+.testimonial_list_main::after { content: ''; display: block; padding: 36.395% 50%; }
+.testimonial_list_main img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.testimonial_list_box .testimonial_list_dtl { width: calc(100% - 452px); padding: 0 0 0 113px; }
+.testimonial_list_box + .testimonial_list_box { padding-top: 79px; }
+.testimonial_list_inner .testimonial_list_box:nth-child(even) { -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.testimonial_list_inner .testimonial_list_box:nth-child(even) .testimonial_list_dtl { padding-right: 113px; padding-left: 0; }
+.testimonial_list_inner .testimonial_content .name_reviewer:after { right: -70px; }
+/* Testimonial List Section End */
+
+/* =============================================================================================================== */
+/* Testimonial Page End */
+/* =============================================================================================================== */
+
+/* =============================================================================================================== */
+/* Product Catalog Page Start */
+/* =============================================================================================================== */
+.inner_banner_v2 .inner_banner_img_blk_main::after { padding: 26.256% 50%; }
+
+/* Product Catalog Listing Section Start */
+.pro_catalog_sec { width: 100%; position: relative; }
+.pro_catalog_sec .pro_catalog_filter_blk { width: 100%; position: relative; background-color: #004F84;  }
+/* Product Catalog Listing Section End */
+
+/* =============================================================================================================== */
+/* Product Catalog Page End */
+/* =============================================================================================================== */
