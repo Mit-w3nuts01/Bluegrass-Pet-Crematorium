@@ -1,0 +1,229 @@
+@media (min-width: 1600px) and (max-width: 1740px) {
+	 
+}
+
+@media (min-width: 1201px) and (max-width: 1699px) {
+	h2 { font-size: 55px; }
+	h4 { font-size: 38px; }
+	/* Header Start */
+	.header_link_box + .header_link_box { padding-left: 30px; }
+	.header_link_box + .header_link_box.header_link_btn { padding-left: 33px; }
+	.logo a img { height: 56px; }
+	.navigation_main ul { margin: 0 -16px; }
+	.navigation_main ul li { padding: 0 16px; }
+	.navigation_main ul li a::before { top: calc(100% + 8px); }
+	/* Header End */
+
+	/* Home Banner Start */
+	.banner_main_wrap .banner_wrap { max-width: 687px;padding: 59px 0 0 0; }
+	.banner_wrap h1 { font-size: 60px; }
+	.banner_main_wrap { min-height: 578px; }
+	.center_icon img { width: 134px; }
+	/* Home Banner End */
+
+	/* Home About Section Start */
+	.about_sec { padding: 120px 0 97px; }
+	.abt_inner .abt_img_wrap { max-width: 500px; }
+	.abt_detail { max-width: 490px; }
+	.abt_detail .main_btn { padding: 32px 0 0 0; }
+	/* Home About Section End */
+
+	/* Our Work Section Start */
+	.our_work_header .our_work_icon { width: 70px; }
+	.our_work_header .our_work_title { width: calc(100% - 70px); padding: 0 0 0 22px; }
+	.our_work_inner .row { margin: 0 -30px !important; }
+	.our_work_inner .row [class^="col-"] { padding: 30px !important; }
+	.our_work_disc p { font-size: 22px; }
+	/* Our Work Section End */
+
+	/* Testimonial Home Section Start */
+	.home_testi_img {width: 638px; min-width: 638px;}
+	.testimonial_content_inner { padding: 51px 59px 24px 63px; }
+	.testimonial_content .name_reviewer { font-size: 28px; padding: 0 115px 0 0; }
+	.testimonial_content .name_reviewer:after { width: 125px; height: 104px; }
+	.link_more { padding: 43px 34px 0 0; }
+	.testimonial_content p { font-size: 27px; }
+	/* Testimonial Home Section End */
+
+	/* Keepsakes Section Start */
+	.keepsakes_img_wrap { width: calc((100vw - 1130px) / 2 + 15px + 100%); }
+	.keepsakes_dtl h2 { padding-bottom: 33px; }
+	.keepsakes_dtl .main_btn { padding: 41px 0 0 0; }
+	/* Keepsakes Section End */
+
+	/* Cremation Services Section Start */
+	.cremation_services_img_col .cremation_services_img { width: calc((100vw - 1130px) / 2 + 15px + 100%); }
+	/* Cremation Services Section End */
+
+	/* Footer Start */
+	.footer_row .footer_left { width: 383px; padding: 0 59px 0 0; }
+	.f_social { padding: 43px 0 0 0; }
+	.f_social ul { margin: 0 -15px; }
+	.f_social ul li { padding: 0 15px; }
+	.footer_row .footer_right { width: calc(100% - 383px); padding: 24px 0 24px 59px; }
+	.footer_map { width: 334px; }
+	.footer_contact { width: 305px; }
+	.footer_contact p { font-size: 20px; }
+	.copyright_footer { padding: 37px 0 0 15px; }
+	/* Footer End */
+}
+ 
+@media (min-width: 992px) and (max-width: 1200px) {
+	h2 { font-size: 40px; }
+	h4 { font-size: 30px; }
+	h6 { font-size: 18px; }
+	/* Header Start */
+	.header_link_box.header_link_btn a { min-width: 162px; }
+	.header_link_box + .header_link_box { padding-left: 30px; }
+	.header_link_box + .header_link_box.header_link_btn { padding-left: 33px; }
+	.logo a img { height: 46px; }
+	.navigation_main ul { margin: 0 -10px; }
+	.navigation_main ul li { padding: 0 10px; }
+	.navigation_main ul li a::before { top: calc(100% + 8px); height: 3px; }
+	/* Header End */
+
+	/* Home Banner Start */
+	.banner_main_wrap .banner_wrap { max-width: 687px;padding: 59px 0 0 0; }
+	.banner_wrap h1 { font-size: 60px; }
+	.banner_main_wrap { min-height: 578px; }
+	.center_icon img { width: 134px; }
+	/* Home Banner End */
+
+	/* Home About Section Start */
+	.about_sec { padding: 120px 0 97px; }
+	.abt_inner .abt_img_wrap { max-width: 500px; }
+	.abt_detail { max-width: 490px; }
+	.abt_detail .main_btn { padding: 32px 0 0 0; }
+	/* Home About Section End */
+
+	/* Our Work Section Start */
+	.our_work_header .our_work_icon { width: 70px; }
+	.our_work_header .our_work_title { width: 100%; padding: 10px 0 0 0; }
+	.our_work_inner .row { margin: 0 -30px !important; }
+	.our_work_inner .row [class^="col-"] { padding: 30px !important; }
+	.our_work_disc p { font-size: 20px; }
+	/* Our Work Section End */
+
+	/* Testimonial Home Section Start */
+	.home_testi_img {width: 508px; min-width: 508px;}
+	.testimonial_content { padding: 26px; }
+	.testimonial_content_inner { padding: 21px 29px 21px 21px; }
+	.testimonial_content .name_reviewer { font-size: 24px; padding: 0 80px 0 0; }
+	.testimonial_content .name_reviewer:after { width: 95px; height: 74px; }
+	.link_more { padding: 23px 34px 0 0; }
+	.link_more a { font-size: 19px; }
+	.testimonial_content p { font-size: 23px; }
+	/* Testimonial Home Section End */
+
+	/* Keepsakes Section Start */
+	.keepsakes_img_wrap { width: calc((100vw - 970px) / 2 + 15px + 100%); }
+	.keepsakes_dtl h2 { padding-bottom: 23px; }
+	.keepsakes_dtl .main_btn { padding: 41px 0 0 0; }
+	/* Keepsakes Section End */
+
+	/* Cremation Services Section Start */
+	.cremation_services_img_col .cremation_services_img { width: calc((100vw - 970px) / 2 + 15px + 100%); }
+	/* Cremation Services Section End */
+
+	/* Footer Start */
+	.footer_row .footer_left { width: 273px; padding: 0 20px 0 0; }
+	.f_social { padding: 30px 0 0 0; }
+	.f_social ul { margin: 0 -10px; }
+	.f_social ul li { padding: 0 10px; }
+	.f_social ul li a img { height: 40px; }
+	.footer_row .footer_right { width: calc(100% - 273px); padding: 24px 0 24px 20px; }
+	.footer_map { width: 304px; }
+	.footer_contact { width: 305px; }
+	.footer_contact p { font-size: 20px; }
+	.copyright_footer { padding: 37px 0 0 15px; }
+	/* Footer End */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	h2 { font-size: 35px; }
+	h4 { font-size: 27px; }
+	h6 { font-size: 18px; padding-bottom: 10px; }
+	/* Header Start */
+	.header_link_box.header_link_btn a { min-width: 162px; }
+	.header_link_box + .header_link_box { padding-left: 30px; }
+	.header_link_box + .header_link_box.header_link_btn { padding-left: 33px; }
+	.logo a img { height: 46px; }
+	.navigation_main ul { margin: 0 -10px; }
+	.navigation_main ul li { padding: 0 10px; }
+	.navigation_main ul li a::before { top: calc(100% + 8px); height: 3px; }
+	/* Header End */
+
+	/* Home Banner Start */
+	.banner_main_wrap .banner_wrap { max-width: 687px;padding: 40px 0 0 0; margin: 0 auto; text-align: center; }
+	.banner_wrap .main_btn { justify-content: center; }
+	.banner_wrap h1 { font-size: 45px; }
+	.banner_main_wrap { min-height: 440px; }
+	.center_icon img { width: 120px; }
+	/* Home Banner End */
+
+	/* Home About Section Start */
+	.about_sec { padding: 90px 0 67px; }
+	.abt_inner .abt_img_wrap { max-width: 100%; }
+	.abt_detail { max-width: 100%; padding: 30px 0 0 0; }
+	.about_sec:after { width: 100%; }
+	.abt_detail .main_btn { padding: 32px 0 0 0; }
+	/* Home About Section End */
+
+	/* Our Work Section Start */
+	.our_work_sec { padding: 35px 0; }
+	.our_work_header .our_work_icon { width: 70px; }
+	.our_work_header .our_work_title { width: calc(100% - 70px); padding: 0 0 0 15px; }
+	.our_work_inner .row { margin: 0 -30px !important; }
+	.our_work_inner .row [class^="col-"] { padding: 30px !important; width: 50%; }
+	.our_work_disc p { font-size: 20px; }
+	/* Our Work Section End */
+
+	/* Testimonial Home Section Start */
+	.home_testi_img {width: 388px; min-width: 388px;}
+	.testimonial_content { padding: 26px; }
+	.testimonial_content_inner { padding: 21px 29px 21px 21px; }
+	.testimonial_content .name_reviewer { font-size: 19px; padding: 0 80px 0 0; }
+	.testimonial_content .name_reviewer:after { width: 95px; height: 74px; }
+	.link_more { padding: 23px 34px 0 0; }
+	.link_more a { font-size: 19px; }
+	.testimonial_content p { font-size: 20px; }
+	.testimonial_content .testimonial_name_review { padding: 20px 0 0 0; }
+	/* Testimonial Home Section End */
+
+	/* Keepsakes Section Start */
+	.keepsakes_img_wrap { width: 100%; }
+	.keepsakes_img { width: 100%; }
+	.keepsakes_dtl { padding: 50px 0 0 0; }
+	.keepsakes_dtl h2 { padding-bottom: 23px; }
+	.keepsakes_dtl .main_btn { padding: 41px 0 0 0; }
+	/* Keepsakes Section End */
+
+	/* Cremation Services Section Start */
+	.cremation_services_img_col .cremation_services_img { width: calc((100vw - 750px) / 2 + 15px + 100%); }
+	.cremation_services_dtl_col { width: 390px; }
+	.cremation_services_dtl_col:after { width: 100vw; }
+	.cremation_services_img_col { width: calc(100% - 390px); }
+	/* Cremation Services Section End */
+
+	/* Footer Start */
+	.footer_row .footer_left { width: 273px; padding: 0 20px 0 0; }
+	.f_social { padding: 30px 0 0 0; }
+	.f_social ul { margin: 0 -10px; }
+	.f_social ul li { padding: 0 10px; }
+	.f_social ul li a img { height: 40px; }
+	.footer_row .footer_right { width: calc(100% - 273px); padding: 24px 0 24px 20px; }
+	.footer_map { width: 304px; }
+	.footer_contact { width: 305px; }
+	.footer_contact p { font-size: 20px; }
+	.copyright_footer { padding: 37px 0 0 15px; }
+	/* Footer End */
+ 
+}
+@media (max-width: 767px) {
+ 
+}
+
+
+@media (min-width: 568px) and (max-width: 767px) {
+}
+@media (min-width: 240px) and (max-width: 567px) {
+}
