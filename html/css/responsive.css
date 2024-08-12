@@ -2,7 +2,7 @@
 	 
 }
 
-@media (min-width: 1201px) and (max-width: 1699px) {
+@media (min-width: 1200px) and (max-width: 1699px) {
 	/* =============================================================================================================== */
 	/* Index Page Start */
 	/* =============================================================================================================== */
@@ -79,6 +79,7 @@
 	/* About Banner Start */
 	.inner_banner_row .inner_banner_img_blk .inner_banner_img_blk_main { width: calc((100vw - 1130px) / 2 + 15px + 100%); }
 	.inner_banner_txt { padding: 40px 0 40px 45px; }
+	.inner_banner_txt h1 { font-size: 59px; }
 	.inner_banner_txt h6 { padding-bottom: 20px; }
 	/* About Banner End */
 
@@ -96,9 +97,36 @@
 	/* =============================================================================================================== */
 	/* About Page End */
 	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Service Page Start */
+	/* =============================================================================================================== */
+	/* Service Banner Start */
+	.service_banner .inner_banner_txt { padding-left: 45px; }
+	/* Service Banner End */
+
+	/* Private Cremation Section Start */
+	.private_cremation_sec { padding: 88px 0 80px; }
+	.private_cremation_dtl h2 { padding-bottom: 26px; }
+	.private_cremation_row .private_cremation_dtl { width: 590px; }
+	.our_service_part_box p,
+	.our_service_part_box ul li { font-size: 20px; }
+	.private_cremation_row .private_cremation_img { width: 520px; }
+	/* Private Cremation Section End */
+
+	/* Communal Cremation Section Start */
+	.communal_cremation_sec { padding: 84px 0 80px; }
+	.communal_cremation_row .communal_cremation_img_wrap { width: 501px; }
+	.communal_cremation_row .communal_cremation_dtl { width: 593px; }
+	.communal_cremation_dtl h2 { padding: 0 0 23px 0; }
+	.communal_cremation_dtl .main_btn { padding: 30px 0 0 0; }
+	/* Communal Cremation Section End */
+	/* =============================================================================================================== */
+	/* Service Page End */
+	/* =============================================================================================================== */
 }
  
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	/* =============================================================================================================== */
 	/* Index Page Start */
 	/* =============================================================================================================== */
@@ -197,6 +225,33 @@
 	/* FAQ Section End */
 	/* =============================================================================================================== */
 	/* About Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Service Page Start */
+	/* =============================================================================================================== */
+	/* Service Banner Start */
+	.service_banner .inner_banner_txt { padding-left: 45px; }
+	/* Service Banner End */
+
+	/* Private Cremation Section Start */
+	.private_cremation_sec { padding: 70px 0 80px; }
+	.private_cremation_dtl h2 { padding-bottom: 26px; }
+	.private_cremation_row .private_cremation_dtl { width: 560px; }
+	.our_service_part_box p,
+	.our_service_part_box ul li { font-size: 20px; }
+	.private_cremation_row .private_cremation_img { width: 400px; }
+	/* Private Cremation Section End */
+
+	/* Communal Cremation Section Start */
+	.communal_cremation_sec { padding: 84px 0 80px; }
+	.communal_cremation_row .communal_cremation_img_wrap { width: 401px; }
+	.communal_cremation_row .communal_cremation_dtl { width: 563px; }
+	.communal_cremation_dtl h2 { padding: 0 0 23px 0; }
+	.communal_cremation_dtl .main_btn { padding: 30px 0 0 0; }
+	/* Communal Cremation Section End */
+	/* =============================================================================================================== */
+	/* Service Page End */
 	/* =============================================================================================================== */
 	
 }
@@ -302,7 +357,7 @@
 	/* Our Mission Section End */
 
 	/* FAQ Section Start */
-	.faq_row { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.faq_row { -ms-flex-wrap: wrap; flex-wrap: wrap; padding-top: 80px; }
 	.faq_row .faq_img_blk { width: 100%; }
 	.faq_row .faq_dtl { width: 100%; padding: 30px 0 40px 0; }
 	.our_mission_sec { padding: 26px 0; }
@@ -311,6 +366,35 @@
 	/* FAQ Section End */
 	/* =============================================================================================================== */
 	/* About Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Service Page Start */
+	/* =============================================================================================================== */
+	/* Service Banner Start */
+	.service_banner .inner_banner_txt { padding-left: 0; padding-bottom: 70px; }
+	/* Service Banner End */
+
+	/* Private Cremation Section Start */
+	.private_cremation_row { -ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: flex-start; }
+	.private_cremation_sec { padding: 70px 0 80px; }
+	.private_cremation_dtl h2 { padding-bottom: 16px; }
+	.our_service_part { padding: 30px 0 0 0; }
+	.private_cremation_row .private_cremation_dtl { width: 100%; padding-top: 40px; }
+	.our_service_part_box p,
+	.our_service_part_box ul li { font-size: 20px; }
+	.private_cremation_row .private_cremation_img { width: 100%; max-width: 500px; margin-right: auto; }
+	/* Private Cremation Section End */
+
+	/* Communal Cremation Section Start */
+	.communal_cremation_sec { padding: 84px 0 80px; }
+	.communal_cremation_row .communal_cremation_img_wrap { width: 470px; }
+	.communal_cremation_row .communal_cremation_dtl { width: 100%; padding-top: 40px; }
+	.communal_cremation_dtl h2 { padding: 0 0 23px 0; }
+	.communal_cremation_dtl .main_btn { padding: 30px 0 0 0; }
+	/* Communal Cremation Section End */
+	/* =============================================================================================================== */
+	/* Service Page End */
 	/* =============================================================================================================== */
  
 }
@@ -479,6 +563,38 @@
 	/* FAQ Section End */
 	/* =============================================================================================================== */
 	/* About Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Service Page Start */
+	/* =============================================================================================================== */
+	/* Service Banner Start */
+	.service_banner .inner_banner_txt { padding-left: 0; padding-bottom: 70px; }
+	/* Service Banner End */
+
+	/* Private Cremation Section Start */
+	.private_cremation_row { -ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: flex-start; }
+	.private_cremation_sec { padding: 70px 0 40px; }
+	.private_cremation_dtl h2 { padding-bottom: 16px; }
+	.our_service_part { padding: 30px 0 0 0; }
+	.private_cremation_row .private_cremation_dtl { width: 100%; padding-top: 40px; }
+	.our_service_part_box p,
+	.our_service_part_box ul li { font-size: 18px; }
+	.private_cremation_row .private_cremation_img { width: 100%; max-width: 500px; margin-right: auto; }
+	.our_service_part_row .our_service_part_col { width: 100%; }
+	.our_service_part_row .our_service_part_col + .our_service_part_col { padding-top: 30px; }
+	.private_cremation_dtl .main_btn { padding-top: 25px; }
+	/* Private Cremation Section End */
+
+	/* Communal Cremation Section Start */
+	.communal_cremation_sec { padding: 44px 0 40px; }
+	.communal_cremation_row .communal_cremation_img_wrap { width: 470px; }
+	.communal_cremation_row .communal_cremation_dtl { width: 100%; padding-top: 25px; }
+	.communal_cremation_dtl h2 { padding: 0 0 13px 0; }
+	.communal_cremation_dtl .main_btn { padding: 25px 0 0 0; }
+	/* Communal Cremation Section End */
+	/* =============================================================================================================== */
+	/* Service Page End */
 	/* =============================================================================================================== */
 
 }
