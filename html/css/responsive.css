@@ -168,6 +168,21 @@
 	/* =============================================================================================================== */
 	/* FAQ Page End */
 	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Contact Page Start */
+	/* =============================================================================================================== */
+	.contact_top_info { padding: 71px 0 0 0; }
+	.contact_bottom_heading p,
+	.contact_top_info p { font-size: 25px; }
+	.contact_top_info p + p { padding-top: 37px; }
+	.contact_bottom_form_main { padding: 73px 0 0 0; }
+	.form_cnt { padding: 52px 0 0 0; }
+	.form_cnt_row .form_cnt_col.form_cnt_lastname { padding-left: 68px; width: calc(295px + 68px); }
+	.contact_inner { padding: 0 0 76px 0; }
+	/* =============================================================================================================== */
+	/* Contact Page End */
+	/* =============================================================================================================== */
 }
  
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -347,6 +362,21 @@
 	/* FAQ Main Section End */
 	/* =============================================================================================================== */
 	/* FAQ Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Contact Page Start */
+	/* =============================================================================================================== */
+	.contact_top_info { padding: 61px 0 0 0; }
+	.contact_bottom_heading p,
+	.contact_top_info p { font-size: 22px; }
+	.contact_top_info p + p { padding-top: 27px; }
+	.contact_bottom_form_main { padding: 63px 0 0 0; }
+	.form_cnt { padding: 52px 0 0 0; }
+	.form_cnt_row .form_cnt_col.form_cnt_lastname { padding-left: 68px; width: calc(295px + 68px); }
+	.contact_inner { padding: 0 0 76px 0; }
+	/* =============================================================================================================== */
+	/* Contact Page End */
 	/* =============================================================================================================== */
 
 	
@@ -552,6 +582,24 @@
 	/* FAQ Main Section End */
 	/* =============================================================================================================== */
 	/* FAQ Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Contact Page Start */
+	/* =============================================================================================================== */
+	.inner_banner_v2.contact_banner .inner_banner_img_blk { width: 100%; }
+	.inner_banner_v2.contact_banner .inner_banner_txt { width: 100%; padding: 40px 15px; }
+	.inner_banner_v2.contact_banner .inner_banner_txt h1 { padding: 0 0 9px 0; }
+	.contact_top_info { padding: 51px 0 0 0; }
+	.contact_bottom_heading p,
+	.contact_top_info p { font-size: 20px; }
+	.contact_top_info p + p { padding-top: 27px; }
+	.contact_bottom_form_main { padding: 43px 0 0 0; }
+	.form_cnt { padding: 32px 0 0 0; }
+	.form_cnt_row .form_cnt_col.form_cnt_lastname { padding-left: 58px; width: calc(295px + 58px); }
+	.contact_inner { padding: 0 0 56px 0; }
+	/* =============================================================================================================== */
+	/* Contact Page End */
 	/* =============================================================================================================== */
  
 }
@@ -760,7 +808,7 @@
 	/* =============================================================================================================== */
 	/* Testimonial Banner Start */
 	.inner_banner_v2 .inner_banner_img_blk { width: 100%; }
-	.inner_banner_v2 .inner_banner_txt { width: 100%; }
+	.inner_banner_v2 .inner_banner_txt { width: 100%; padding: 30px 15px; }
 	/* Testimonial Banner End */
 	/* Testimonial List Start */
 	.testimonial_list_box .testimonial_list_img { width: 342px; }
@@ -818,6 +866,29 @@
 	/* =============================================================================================================== */
 	/* FAQ Page End */
 	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Contact Page Start */
+	/* =============================================================================================================== */
+	.inner_banner_v2.contact_banner .inner_banner_img_blk { width: 100%; }
+	.inner_banner_v2.contact_banner .inner_banner_txt { width: 100%; padding: 30px 15px; }
+	.inner_banner_v2.contact_banner .inner_banner_txt h1 { padding: 0 0 9px 0; }
+	.contact_top_info { padding: 41px 0 0 0; }
+	.contact_bottom_heading p { font-size: 18px; }
+	.contact_top_info p { font-size: 16px; }
+	.contact_bottom_heading h2 { padding: 0 0 14px 0; }
+	.contact_top_info p + p { padding-top: 17px; }
+	.contact_bottom_form_main { padding: 30px 0 0 0; }
+	.form_cnt { padding: 32px 0 0 0; }
+	.form_cnt_row .form_cnt_col.form_cnt_firstname { width: 100%; }
+	.form_cnt_row .form_cnt_col.form_cnt_lastname { padding-left: 0; width: 100%; }
+	.contact_inner { padding: 0 0 26px 0; }
+	.form_cnt_row .form_cnt_col.form_cnt_submit { padding-top: 16px; }
+	.contact_map::after { padding: 50% 50%; }
+	/* =============================================================================================================== */
+	/* Contact Page End */
+	/* =============================================================================================================== */
+
 
 }
 
