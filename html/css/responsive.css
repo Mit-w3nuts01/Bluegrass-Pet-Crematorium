@@ -138,6 +138,36 @@
 	/* =============================================================================================================== */
 	/* Testimonial Page End */
 	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Product Catalog Page Start */
+	/* =============================================================================================================== */
+	.pro_catalog_sec .pro_catalog_filter_blk { min-height: 119px; padding: 20px 0; }
+	.pro_catalog_filter_blk ul li a:after { left: -25px; right: -25px; }
+	.pro_catalog_list .row { margin: 0 -20px !important; }
+	.pro_catalog_list .row > [class^="col-"] { padding: 35px 20px !important; }
+	.pro_catalog_dtl .pro_catalog_name { font-size: 20px; }
+	.pro_catalog_dtl .pro_catalog_price { font-size: 20px; }
+
+	.pro_catalog_pagination ul li { font-size: 23px; }
+	.pro_catalog_pagination ul li a::after { font-size: 20px; }
+	.pro_catalog_pagination ul li a:not(.back_arrow):not(.next_arrow).active { font-size: 27px; }
+	/* =============================================================================================================== */
+	/* Product Catalog Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* FAQ Page Start */
+	/* =============================================================================================================== */
+	/* FAQ Main Section Start */
+	.faq_main_sec { padding: 69px 0 101px; }
+	.faq_main_inner .accordion-button { padding: 30px 30px 30px 44px; font-size: 20px; }
+	.faq_main_inner .accordion-body { max-width: 760px; padding: 0 0 29px 35px; }
+	.faq_main_inner .accordion-body p { font-size: 20px; }
+	/* FAQ Main Section End */
+	/* =============================================================================================================== */
+	/* FAQ Page End */
+	/* =============================================================================================================== */
 }
  
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -282,6 +312,43 @@
 	/* =============================================================================================================== */
 	/* Testimonial Page End */
 	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Product Catalog Page Start */
+	/* =============================================================================================================== */
+	.pro_catalog_sec .pro_catalog_filter_blk { min-height: 119px; padding: 20px 0; }
+	.pro_catalog_filter_blk ul { margin: 0 -15px; }
+	.pro_catalog_filter_blk ul li { padding: 0 15px; }
+	.pro_catalog_filter_blk ul li a:after { left: -10px; right: -10px; top: calc(100% + 5px); height: 4px; }
+	.pro_catalog_list .row { margin: 0 -20px !important; }
+	.pro_catalog_list .row > [class^="col-"] { padding: 35px 20px !important; width: 33.33%; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(8n+1):after { display: none; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(6n+1):after { content: ''; position: absolute; top: 0; left: -100vw; right: -100vw; bottom: 0; z-index: -1; background-color: #E8F8FF; pointer-events: none; display: block; }
+	.pro_catalog_dtl .pro_catalog_name { font-size: 20px; }
+	.pro_catalog_dtl .pro_catalog_price { font-size: 20px; }
+	.pro_catalog_wrap { padding: 58px 0 90px; }
+	.pro_catalog_list .row > [class^="col-"]:first-child:after { top: -58px !important; }
+
+	.pro_catalog_pagination ul li { font-size: 23px; }
+	.pro_catalog_pagination ul li a::after { font-size: 20px; }
+	.pro_catalog_pagination ul li a:not(.back_arrow):not(.next_arrow).active { font-size: 27px; }
+	/* =============================================================================================================== */
+	/* Product Catalog Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* FAQ Page Start */
+	/* =============================================================================================================== */
+	/* FAQ Main Section Start */
+	.faq_main_sec { padding: 69px 0 81px; }
+	.faq_main_inner .accordion-button { padding: 30px 30px 30px 44px; font-size: 20px; }
+	.faq_main_inner .accordion-body { max-width: 760px; padding: 0 0 29px 35px; }
+	.faq_main_inner .accordion-body p { font-size: 20px; }
+	/* FAQ Main Section End */
+	/* =============================================================================================================== */
+	/* FAQ Page End */
+	/* =============================================================================================================== */
+
 	
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -444,6 +511,47 @@
 	/* Testimonial List End */
 	/* =============================================================================================================== */
 	/* Testimonial Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* Product Catalog Page Start */
+	/* =============================================================================================================== */
+	.pro_catalog_sec .pro_catalog_filter_blk { min-height: 100px; padding: 20px 0; }
+	.pro_catalog_filter_blk ul { margin: 0 -10px; }
+	.pro_catalog_filter_blk ul li a:before, 
+	.pro_catalog_filter_blk ul li a { font-size: 16px; }
+	.pro_catalog_filter_blk ul li { padding: 0 10px; }
+	.pro_catalog_filter_blk ul li a:after { left: 0; right: 0; top: calc(100% + 5px); height: 4px; }
+	.pro_catalog_list .row { margin: 0 -20px !important; }
+	.pro_catalog_list .row > [class^="col-"] { padding: 35px 20px !important; width: 50%; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(8n+1):after { display: none; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(4n+1):after { content: ''; position: absolute; top: 0; left: -100vw; right: -100vw; bottom: 0; z-index: -1; background-color: #E8F8FF; pointer-events: none; display: block; }
+	.pro_catalog_dtl .pro_catalog_name { font-size: 20px; }
+	.pro_catalog_dtl .pro_catalog_price { font-size: 20px; }
+	.pro_catalog_wrap { padding: 58px 0 90px; }
+	.pro_catalog_list .row > [class^="col-"]:first-child:after { top: -58px !important; }
+
+	.pro_catalog_pagination ul li { font-size: 23px; }
+	.pro_catalog_pagination ul li a::after { font-size: 20px; }
+	.pro_catalog_pagination ul li a:not(.back_arrow):not(.next_arrow).active { font-size: 27px; }
+	/* =============================================================================================================== */
+	/* Product Catalog Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* FAQ Page Start */
+	/* =============================================================================================================== */
+	/* FAQ Banner Section Start */
+	.faq_banner.inner_banner_v2 .inner_banner_img_blk { width: 100%; }
+	/* FAQ Banner Section End */
+	/* FAQ Main Section Start */
+	.faq_main_sec { padding: 69px 0 81px; }
+	.faq_main_inner .accordion-button { padding: 30px 30px 30px 44px; font-size: 20px; }
+	.faq_main_inner .accordion-body { max-width: 760px; padding: 0 0 29px 35px; }
+	.faq_main_inner .accordion-body p { font-size: 20px; }
+	/* FAQ Main Section End */
+	/* =============================================================================================================== */
+	/* FAQ Page End */
 	/* =============================================================================================================== */
  
 }
@@ -665,6 +773,50 @@
 	/* Testimonial List End */
 	/* =============================================================================================================== */
 	/* Testimonial Page End */
+	/* =============================================================================================================== */
+	
+
+	/* =============================================================================================================== */
+	/* Product Catalog Page Start */
+	/* =============================================================================================================== */
+	.pro_catalog_sec .pro_catalog_filter_blk { min-height: 100px; padding: 20px 0; }
+	.pro_catalog_filter_blk ul { margin: 0 -10px; }
+	.pro_catalog_filter_blk ul li a:before, 
+	.pro_catalog_filter_blk ul li a { font-size: 16px; }
+	.pro_catalog_filter_blk ul li { padding: 10px 10px; }
+	.pro_catalog_filter_blk ul li.active a { color: #FED8AB; }
+	.pro_catalog_filter_blk ul li a:after { left: 0; right: 0; top: 100%; height: 4px;  }
+	.pro_catalog_list .row { margin: 0 -20px !important; }
+	.pro_catalog_list .row > [class^="col-"] { padding: 35px 20px !important; width: 100%; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(8n+1):after { display: none; }
+	.pro_catalog_list .row > [class^="col-"]:nth-child(2n+1):after { content: ''; position: absolute; top: 0; left: -100vw; right: -100vw; bottom: 0; z-index: -1; background-color: #E8F8FF; pointer-events: none; display: block; }
+	.pro_catalog_dtl .pro_catalog_name { font-size: 20px; }
+	.pro_catalog_dtl .pro_catalog_price { font-size: 20px; }
+	.pro_catalog_wrap { padding: 20px 0 90px; }
+	.pro_catalog_list .row > [class^="col-"]:first-child:after { top: -20px !important; }
+
+	.pro_catalog_pagination ul li { font-size: 20px; }
+	.pro_catalog_pagination ul li a::after { font-size: 18px; }
+	.pro_catalog_pagination ul li a:not(.back_arrow):not(.next_arrow).active { font-size: 27px; }
+	.pro_catalog_pagination ul li a svg { width: 15px; height: auto; }
+	/* =============================================================================================================== */
+	/* Product Catalog Page End */
+	/* =============================================================================================================== */
+
+	/* =============================================================================================================== */
+	/* FAQ Page Start */
+	/* =============================================================================================================== */
+	/* FAQ Banner Section Start */
+	.faq_banner.inner_banner_v2 .inner_banner_img_blk { width: 100%; }
+	/* FAQ Banner Section End */
+	/* FAQ Main Section Start */
+	.faq_main_sec { padding: 45px 0 41px; }
+	.faq_main_inner .accordion-button { padding: 15px 20px 15px 30px; font-size: 20px; }
+	.faq_main_inner .accordion-body { max-width: 760px; padding: 0 0 29px 25px; }
+	.faq_main_inner .accordion-body p { font-size: 18px; }
+	/* FAQ Main Section End */
+	/* =============================================================================================================== */
+	/* FAQ Page End */
 	/* =============================================================================================================== */
 
 }
